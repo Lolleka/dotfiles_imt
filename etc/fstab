@@ -1,0 +1,18 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# UUID=39806b25-690b-4e36-ad0c-cae32fa63afe LABEL=rootfs
+/dev/sda6           	/         	ext4      	rw,relatime,data=ordered	0 1
+
+# UUID=85C2-ACC6 LABEL=boot
+/dev/sda5           	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro	0 2
+
+# UUID=ba2b47f0-591a-48fb-91e3-5015ab293760
+/dev/sda7           	/home     	ext4      	rw,relatime,data=ordered	0 0
+
+//141.52.28.144/oe/imt	/mnt/J	cifs	credentials=/etc/scccreds,rw,noauto,x-systemd.automount,_netdev,uid=1000,gid=10	0 0
+//141.52.28.144/oe/imt/home/Bordonali-L	/mnt/U	cifs	credentials=/etc/scccreds,rw,noauto,x-systemd.automount,_netdev	0 0
+//141.52.28.242/home	/mnt/V	cifs	credentials=/etc/scccreds,rw,noauto,x-systemd.automount,_netdev	0 0
+
+/home/swapfile none swap defaults 0 0

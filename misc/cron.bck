@@ -1,0 +1,2 @@
+#*/5   *  * * * DISPLAY=:0.0 /home/lolleka/scripts/setplantbg
+*/10 * * * * source /home/lolleka/scripts/updatecheerlight.zsh

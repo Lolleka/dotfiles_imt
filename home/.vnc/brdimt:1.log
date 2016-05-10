@@ -1,0 +1,12 @@
+
+Xvnc TigerVNC 1.6.0 - built Dec 25 2015 15:38:10
+Copyright (C) 1999-2015 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11800000, The X.Org Foundation
+
+
+Mon Feb  1 14:09:11 2016
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+xfce4-session: Another session manager is already running
